@@ -12,7 +12,7 @@ def home():
 
 @app.route('/scrape')
 def scrape():
-    ares_data=mars2.scrape()
+    ares_data=scrape_mars.scrape()
     mongo.db.collection.update({},ares_data, upsert=True)
     return redirect('/')
 
