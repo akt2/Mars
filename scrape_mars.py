@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup as bs
 from splinter import Browser
+import pymongo
+import pandas as pd
 
 def init_browser():
     executable_path = {'executable_path':'chromedriver'}
@@ -59,3 +61,9 @@ def scrape():
     browser.quit()
 
     return mars
+
+# conn = 'mongodb://localhost:27017'
+# client = pymongo.MongoClient(conn)
+# db=client.mars_db
+# collection=db.mars_info
+# collection.insert_one(mars)

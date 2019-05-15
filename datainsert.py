@@ -1,9 +1,10 @@
 import pymongo
+from mar
 
 conn = 'mongodb://localhost:27017'
 client = pymongo.MongoClient(conn)
 
-db=client.mars
+db=client.marsd
 collection = db.marsc
 
-db.collection
+db.collection.insert_one

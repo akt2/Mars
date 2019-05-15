@@ -1,0 +1,116 @@
+
+#navy {
+    z-index: +1;
+    padding: 10px 30px;
+    background: #555;
+    color: #f1f1f1;
+}
+.navbar-brand {
+  padding: 10px 16px;
+  background: rgb(43, 206, 179);
+  color: #f1f1f1;
+  font-weight: bold;
+  margin-left: 10%;
+}
+#navbarSupportedContent {
+  margin-left: 55%;
+}
+body{
+  background-color:rgb(231, 230, 230);
+}
+h4{
+  color: rgb(43, 206, 179);
+  padding: 10px;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+h5{
+  color: rgb(43, 206, 179);
+  padding: 10px;
+  font-size: 150%;
+  font-weight: bold;
+}
+#theader-row {
+  padding: 10px 16px;
+  background: rgb(43, 206, 179);
+  color: #f1f1f1;
+}
+.container {
+  padding: 16px;
+  background-color: white;
+  align-content:center;
+  margin: auto;
+}
+.img-thumbnail{
+  float:left;
+  width: 50%;
+  margin: 20px;
+}
+.sq1{
+  float:left;
+  width: 50%;
+  padding: 0 10px 10px 0;
+}
+.sq1a{
+  float:left;
+  width: 100%;
+  padding: 0 10px 10px 0;
+}
+.sq2{
+  float:right;
+  width: 50%;
+  padding: 0 10px 10px 0;
+}
+.sq2a{
+  float:left;
+  width: 100%;
+  padding: 0 10px 10px 0;
+}
+.sq3{
+  float:left;
+  width: 50%;
+  padding: 0 10px 10px 0;
+}
+.sq3a{
+  float:left;
+  width: 100%;
+  padding: 0 10px 10px 0;
+}
+.sq4{
+  float:right;
+  width:50%;
+  padding: 0 10px 10px 0;
+}
+.sq4a{
+  float:left;
+  width: 100%;
+  padding: 0 10px 10px 0;
+}
+td{
+  padding: 10px;
+}
+footer{
+  background-color: rgb(43, 206, 179);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom:absolute;
+}
+h3{
+  color: rgb(43, 206, 179);
+  font-weight: bold;
+  text-indent: 9%;
+  padding-bottom: 10px;
+}
+.dataframe{
+  margin: auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.sticky + .container {
+    padding-top: 102px;
+  }  
